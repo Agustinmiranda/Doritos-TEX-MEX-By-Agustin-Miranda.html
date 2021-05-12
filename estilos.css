@@ -18,6 +18,17 @@ table hover {
   background-color:#000; 
 }
 
+img:hover{
+
+     opacity: 100%;
+   
+}
+img {
+  z-index:1;
+  filter:alpha(opacity=80);
+  -moz-opacity:.80;
+  opacity:.80;
+}
 
 
 
